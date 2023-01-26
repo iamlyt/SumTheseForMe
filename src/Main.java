@@ -34,9 +34,7 @@ public class Main {
             toWhere = array.length;
         }
         System.out.println("upper limit = " + toWhere);
-        if (toWhere == 0) {
-            return 0;
-        }
+
         for (int i = fromWhere; i < toWhere; i++) {
             int num = array[i];
 
